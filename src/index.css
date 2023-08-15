@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.swiper-pagination {
+      position: static !important;
+      margin-top: 10px;
+    }
+    
+    .active {
+      background-color: #3498db;
+      color: white;
+    }
+    
+    button {
+      padding: 10px 20px;
+      cursor: pointer;
+      border: none;
+      background-color: transparent;
+      transition: background-color 0.3s, color 0.3s;
+    }
+    .faqs {
+      background-color: skyblue;
+      padding: 1rem;
+    }
+    .faq {
+      background-color: #4c4c4c;
+      margin: 1rem 0;
+      padding: 0.6rem;
+      border-radius: 0.6rem;
+    }
+    .faq h3 {
+      color: #c2bfbf;
+    }
+    .faq p {
+      color: white;
+      font-size: 0.8rem;
+      margin: 0.5rem 0;
+    }
+    .upper {
+      display: flex;
+      justify-content: space-between;
+    }
+    button {
+      background-color: transparent;
+      border: none;
+    }
+    
+    .icon {
+      /* background-color: orange; */
+      color: orange;
+      font-size: 1.2rem;
+    }
+    
